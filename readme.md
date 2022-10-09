@@ -5,11 +5,15 @@
 현재 군의 행정업무는 온나라 시스템을 이용한 전자결재 방식을 이용하고 있지만, 신규 안건, 비밀 등 서면결재를 받아야 하는 문서들은 결재를 받기위해 지휘관에게 직접 찾아가야 한다. 하지만 지휘관이 부재일 시 대기 및 재방문으로 허비되는 시간이 있다. 이 과정에서 상당한 시간이 소요되는 것을 느꼈고 이를 완화하기 위한 아이템을 구상하였다. 자율주행을 통해 지휘관의 사무실까지 서류를 가지고 운반하며, 지정된 인원만 열람할 수 있는 잠금장치를 탑재한 로봇이다.
 
 ## 기능 설명
-젯슨나노, 아두이노Mega를 이용하여 제어부를 컨트롤할 할 것이며, 자율주행은 RPLIDAR A2 모델을 이용한 SLAM알고리즘을 이용할 것이다. 젯슨 나노를 이용한 ROS프로그래밍을 할 것이며, 모든 하드웨어에 필요한 부품은 보유하고 있다. 2명으로 이루어진 팀이며 각자 2개씩의 구현파트를 나누어 프로젝트를 진행예정이다. 1. ROS프로그래밍 : SLAM 알고리즘을 이용한 맵핑 및 위치추정을 할 것이며, 맵좌표를 아누이노Mega 전달하여 해당 위치까지 로봇이 이동할 수 있도록 제어할 것이다. 2. 제어부 컨트롤 : 아두이노Mega를 이용할 것이며 옴니휠 3륜 형태의 하드웨어를 제어할 것임. 3. 오도메트리 : 6자유도 센서 및 엔코더를 이용한 로봇이 이동한 거리를 파악하기 위한 위치제어 알고리즘 4. 지문인식 : 지문센서와 아두이노UNO를 이용하여 지문 등록을 할 것이며 시리얼통신을 통해 젯슨 나노에 잠금장치의 개방 여부 전달
+젯슨나노, 아두이노Mega를 이용하여 제어부를 컨트롤할 할 것이며, 자율주행은 RPLIDAR A2 모델을 이용한 SLAM알고리즘을 이용할 것이다. 젯슨 나노를 이용한 ROS프로그래밍을 할 것이다.
+1. ROS프로그래밍 : Hector_SLAM 알고리즘을 이용한 맵핑 및 위치추정을 할 것이며, 맵좌표를 아누이노Mega 전달하여 해당 위치까지 로봇이 이동할 수 있도록 제어
+2. 제어부 컨트롤 : 아두이노Mega를 이용할 것이며 옴니휠 3륜 형태의 하드웨어를 제어 
+3. 오도메트리 : 6자유도 센서 및 엔코더를 이용한 로봇이 이동한 거리를 파악하기 위한 위치제어 알고리즘
+4. 지문인식 : 지문센서와 아두이노UNO를 이용하여 지문 등록을 할 것이며 시리얼통신을 통해 젯슨 나노에 잠금장치의 개방 여부 전달
 
 ## 컴퓨터 구성 / 필수 조건 안내 (Prerequisites)
-* ECMAScript 6 지원 브라우저 사용
-* 권장: Google Chrome 버젼 77 이상
+* Desktop / windows10
+* Jetson Nano / Ubuntu 18.04
 
 ## 기술 스택 (Technique Used) 
 ### Server(back-end)
@@ -40,8 +44,8 @@ $ yarn start or npm run start
  샘플 에디터 [https://stackedit.io/app#](https://stackedit.io/app#)
  
 ## 팀 정보 (Team Information)
-- hong gil dong (hong999@gmail.com), Github Id: gildong999
-- kim su ji (suji999@gmail.com), Github Id: suji999
+- 주윤철 (caitfuspe@gmail.com), Github Id: caitfuspe
+- 손용헌 (heon8773@gmail.com), Github Id: heon8773
 
 ## 저작권 및 사용권 정보 (Copyleft / End User License)
  * [MIT](https://github.com/osam2020-WEB/Sample-ProjectName-TeamName/blob/master/license.md)
