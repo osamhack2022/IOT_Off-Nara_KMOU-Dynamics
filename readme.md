@@ -1,9 +1,5 @@
-### 본 페이지는 샘플입니다. 아래의 *[샘플 양식에 포함되어 있는 항목은 필수 기재사항]*   입니다.
-해당 내용은 모두 예시이며 설명이 부족하거나 추가하고싶은 부분이 있으면 개발자님이 추가해서 작성하셔도 무관합니다. (동영상, 이미지, 텍스트 적용 전부 자유)
-
-
 # Project name or Logo
-![off nara logo](https://user-images.githubusercontent.com/76986402/194733350-b06ddcd5-5280-4b96-b72d-47b6e41c5d5f.JPG)
+![off nara logo](https://user-images.githubusercontent.com/76986402/194733403-38135655-c8c1-45f3-b019-eb20fbda87e9.JPG)
 
 프로젝트명 또는 프로젝트 로고 이미지 **(택1)**
 
