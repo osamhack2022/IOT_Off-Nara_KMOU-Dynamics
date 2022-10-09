@@ -3,7 +3,7 @@
 
 
 # Project name or Logo
-![Logo](https://logosbynick.com/wp-content/uploads/2018/03/final-logo-example.png)
+![off nara logo](https://user-images.githubusercontent.com/76986402/194733350-b06ddcd5-5280-4b96-b72d-47b6e41c5d5f.JPG)
 
 프로젝트명 또는 프로젝트 로고 이미지 **(택1)**
 
