@@ -5,7 +5,7 @@
 ## Contribution
 문서화에 유리한 **Notion**과 실시간 소통이 가능한 **Slack**을 활용하여 협업하였습니다. 
 <p align="center">
-  <a href="https://www.notion.so/OFF-NARA-b822e97d6b72433b84d49dd200afabf8
+  <a href="https://lofty-innocent-b75.notion.site/OFF-NARA-b822e97d6b72433b84d49dd200afabf8
 " target="_blank">
     <img src="https://img.shields.io/badge/NOTION-team_page-green?&style=for-the-badge&logo=notion" />
   </a>
