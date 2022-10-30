@@ -1,0 +1,19 @@
+<package format="2">
+    <name>offnara_pid</name>
+    <version>0.0.1</version>
+    <description>offnara_robot PID dynamic_reconfigure</description>
+    <author>Developed by Joo</author>
+    <maintainer email="caitfuspe@gmail.com">j</maintainer>
+    <license>Developed by Joo</license>
+    <url>https://github.com/osamhack2022-v2/IOT_Off-Nara_KMOU-Dynamics</url>
+
+    <buildtool_depend>catkin</buildtool_depend>
+    <build_depend>message_generation</build_depend>
+    <exec_depend>message_runtime</exec_depend>
+
+    <depend>dynamic_reconfigure</depend>
+    <depend>roscpp</depend>
+    <depend>rospy</depend>
+    <depend>std_msgs</depend>
+    <depend>offnara_msgs</depend>
+</package>
